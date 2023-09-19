@@ -8,7 +8,7 @@
 <p>This repository serves as a starting point for anyone looking to kickstart their Django web development journey.
 Whether you're a beginner or an experienced developer, my goal is to provide you with a solid foundation to build Django web applications quickly and efficiently.
 In this repo you will see multiple projects of Django that you can implement to inhance your skills.
-Note that i will push new projects and update existing projects time to time.</p>
+<b>Note that i will push new projects and update existing projects regularly.</b></p>
 
 <h3>Prerequisite</h3>
 <p><ul>
@@ -39,5 +39,5 @@ Note that i will push new projects and update existing projects time to time.</p
   		you will be ask for username , email-address , password then super user will be created successfully.]<br>
   8. After log-in , In admin site , You can see 'models' where you can see, add, change and delete objects through admin site.<br>
   9. You will be see already stored objects there , those were added by me.<br>
-  10. Note that I've alrady created super user 'admin' for login into admin site and migrate model using this command (pytho manage.py migrate).
+  10. Note that I've alrady created super user 'admin' for login into admin site and migrate model using this command (python manage.py migrate).
 </p>
