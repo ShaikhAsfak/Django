@@ -10,15 +10,25 @@ Whether you're a beginner or an experienced developer, my goal is to provide you
 In this repo you will see multiple projects of Django that you can implement to inhance your skills.
 Note that i will push new projects and update existing projects time to time.</p>
 
+<h3>Prerequisite</h3>
+<p><ul>
+        <li>Python Fundamentals</li>
+        <li>Installation of Django</li>
+        <li>Some Basic Files : views.py, settings.py, urls.py, admin.py, models.py and for html,css,javascript directories be like templates and static.</li>
+        <li>Even commands for migrations to add models and all.</li>
+    </ul>
+</p>
+
 <h3>Getting Started</h3>
 <b>To get started with this Django Starter Kit, follow these simple steps:</b>
 <p>
-    1. Download the Code from Repo. After opening the folder , You will find 
+    1. Clone the Repository: Clone this repository to your local machine using the following command: (git clone https://github.com/ShaikhAsfak/Django.git).<br>
+       After opening the folder , You will find 
       		<ol type="A">
-            <li>Project folder same name as root folder.</li>
-      		  <li>App folder.</li>
-      		  <li>manage.py file etc.</li>
-          </ol>
+                <li>Project folder same name as root folder.</li>
+          		<li>App folder.</li>
+          		<li>manage.py file etc.</li>
+            </ol>
   2. Now for output you need to run server for that write this command in 'Terminal or CMD'.(python manage.py runserver)<br>
   3. After that you will see path that you need to write in any 'Browser'.<br>
   4. Yay! Here you go!!<br>
@@ -29,6 +39,5 @@ Note that i will push new projects and update existing projects time to time.</p
   		you will be ask for username , email-address , password then super user will be created successfully.]<br>
   8. After log-in , In admin site , You can see 'models' where you can see, add, change and delete objects through admin site.<br>
   9. You will be see already stored objects there , those were added by me.<br>
-  10. Remember for more deep understanding of django , you need to learn the basics first like <br>
-      (views.py, settings.py, urls.py, admin.py, models.py, and for html,css,javascript directories be like templates and static even commands for migrations to add models and all.)
+  10. Note that I've alrady created super user 'admin' for login into admin site and migrate model using this command (pytho manage.py migrate).
 </p>
