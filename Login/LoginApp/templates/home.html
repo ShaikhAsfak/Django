@@ -1,0 +1,36 @@
+<html>
+	<body>
+
+		<center>
+		<h1>Welcome , You logged in successfully</h1>
+
+		<p><b><i>Hello : </i>{{ User_Name }}</b></p>
+
+			<h3>List of All User</h3>
+
+			<table border="1" cellpadding="5px" cellspacing="5px">
+				<tr>
+					<th>ID</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>E-mail</th>
+					<th>Edit</th>
+					<th>Delete</th>
+				</tr>
+				{% for d in Data %}
+				<tr>
+					<td>{{ d.id }}</td>
+					<td>{{ d.fname }}</td>
+					<td>{{ d.lname }}</td>
+					<td>{{ d.email }}</td>
+					<td><a href="\update\?id={{ d.id }}">Edit</a></td>
+					<td><a href="\del\?id={{ d.id }}">Delete</a></td>
+				</tr>
+				{% endfor %}
+			</table>
+			<h3><a href="/">Home</a></h3>
+		</center>
+		
+	</body>
+</html>
+
