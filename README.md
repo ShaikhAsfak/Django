@@ -23,6 +23,8 @@ In this repo you will see multiple projects of Django that you can implement to 
 <b>To get started with this Django Starter Kit, follow these simple steps:</b>
 <p>
     1. Clone the Repository: Clone this repository to your local machine using the following command: (git clone https://github.com/ShaikhAsfak/Django.git).<br>
+         OR <br> 
+       If you get error to clone the repo then download the zip file. ('Django-main.zip') will be downloaded then extract it. Now open the required folder.<br>
        After opening the folder , You will find 
       		<ol type="A">
                 <li>Project folder same name as root folder.</li>
