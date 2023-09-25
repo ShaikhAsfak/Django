@@ -32,7 +32,8 @@ def loginchk(request):
 	uname = request.GET.get('uname')
 	password = request.GET.get('password')
 	# Method 1
-	# data = loginModel.objects.all()
+	# data = loginModel.objects.all() #select * from loginModel
+	# data = loginModel.object.filter(uname=uname) #select * from loginModel where uname=uname
 	# for d in data:
 	# 	if (d.uname == uname and d.password == password):
 	# 		return HttpResponse('<h2>You are login Successfully</h2>')
