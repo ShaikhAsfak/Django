@@ -1,0 +1,11 @@
+<h2>Add a New User</h2>
+<form method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+		{{signup_form.as_p}}
+		<button>Submit</button>
+</form>
+<a href="/login/">Login Here</a>
+
+<!-- {% for u in signup %}
+	<h4>{{u.username}}</h4>
+{% endfor %} -->
